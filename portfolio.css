@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+
+.nav-links ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: red;
+}
+
+.nav{
+    height: 150px;
+}
+.nav-links ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 140px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+
+.nav-links p{
+    border-radius: 5px;
+    border-color: aliceblue;
+
+}
+.nav-links button{
+    color: red;
+    border-radius: 5px;
+    border-color: azure;
+    border-style:inset;
+    cursor: pointer;
+
+}
+
+.mainpart{
+    text-align: left;
+    padding-top: 150px;
+    margin-left: 50px;
+
+    
+}
+.mainpart h1{
+    font-size: 400%;
+}
+.mainpart h4 span{
+    color: red;
+}
+.mainpart h3 span{
+    color: red;
+}
+
+.mainpart button{
+    margin-top: 20px;
+    color: red;
+    border: 1px groove white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+
+.about-col{
+    flex-basis: 50%;
+}
+.about-col img{
+    height: 250px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 45%;
+    
+}
+
+.about-col h1{
+    margin-top: 30px;
+    color: red;
+    text-align: center;
+    padding-bottom: 20px;
+
+ .about-col p{
+    text-align: center;
+
+    }
+
+    
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding-top: 20px;
+    
+    
+}
+
+
+
+.row1{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    padding-top: 20px;
+    
+}
+.mainpart img{
+
+    
+    height: 300px;
+    width: 450px;
+    border-radius: 25%;
+
+    
+    
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.hero-btn:hover{
+    border: 1px solid red;
+    background:red;
+    transition: 1s;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: red;
+}
+
+.footer1{
+    
+    width: 100%;
+    text-align: left;
+    padding: 0px 0;
+}
+
+.footer1 h4{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    margin-left: 50px;
+}
+
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.hero-btn1:hover{
+    border: 1px solid red;
+    background:red;
+    transition: 1s;
+}
+
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.hero-btn2:hover{
+    border: 1px solid red;
+    background:red;
+    transition: 1s;
+}
+
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+
+.contact-col div h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+    
+
+.education h1{
+    margin-left: 100px;
+    margin-top: 130px;
+
+}
+.education p{
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.education p span{
+    color: red;
+}
+
+.education1 h1{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.education1 p{
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.education1 p span{
+    color: red;
+}
+
+.education2 h1{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.education2 p{
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.education2 p span{
+    color: red;
+}
