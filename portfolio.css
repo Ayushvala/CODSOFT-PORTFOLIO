@@ -12,6 +12,19 @@
     color: red;
 }
 
+.nav-links ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}
+
+.nav-links ul li a:hover::after{
+width: 100%;
+}
 .nav{
     height: 150px;
 }
